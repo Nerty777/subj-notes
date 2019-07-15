@@ -66,6 +66,7 @@ const updateNote = note => async dispatch => {
   dispatch(actions.fetchRequest());
   try {
     const data = await API.updateItem(note);
+    console.log('data: ', data);
     if (data) {
       dispatch(actions.updateNoteSuccess(note));
     } else {

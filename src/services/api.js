@@ -25,10 +25,12 @@ const deleteItem = async (id, source) => {
 };
 
 const updateItem = async note => {
+  console.log('note: ', note);
   const response = await axios.patch(`/notes/${note.id}`, {
     title: note.title || '',
-    text: note.text || '',
+    content: note.content || '',
   });
+  console.log('response: ', response);
   return response.data;
 };
 
