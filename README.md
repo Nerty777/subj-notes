@@ -15,12 +15,11 @@ c) Notification should be animated (optional).<br>
 We provide an API to manage notes. It is simple CRUD API. However, we intentionally configured a 30% failure rate. It means that every 3rd request to server will fail and you should be ready to handle it.<br>
 a) When user open the app, load all notes from the API.<br>
 b) All changes to notes (creation, editing and deletion) should be reflected on the backend via API.<br>
-c) <a href="">API Docs</a>https://github.com/subjua/technical-task-backend/blob/master/docs/api.md<br>
-d) API URL  http://159.89.96.181/api/v1/<br>
+c) <a href="https://github.com/subjua/technical-task-backend/blob/master/docs/api.md">API Docs</a><br>
+d) <a href="http://159.89.96.181/api/v1/">API URL</a> <br>
 4. Design and other details is up to you, just be ready to argument them.<br>
 5. Use Git, your solution should have commit history and send a link to your repository.<br>
 6. Solution should be executable with one or two commands. Provide an instruction.<br>
-<br>
 
 ##### Required technologies<br>
 1. React<br>
