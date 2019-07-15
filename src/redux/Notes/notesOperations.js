@@ -35,13 +35,13 @@ const addNote = (note, source) => dispatch => {
       }
     }
   }
-  setTimeout(add, 5000);
+  setTimeout(add, 3000);
 };
 
 const deleteNote = (id, source) => dispatch => {
   dispatch(actions.fetchRequest());
   dispatch(snackbarActions.openSnackbarSuccess(source));
-  async function deleted() {
+  async function deletion() {
     try {
       const data = await API.deleteItem(id, source);
       if (data) {
@@ -59,7 +59,7 @@ const deleteNote = (id, source) => dispatch => {
       }
     }
   }
-  setTimeout(deleted, 5000);
+  setTimeout(deletion, 3000);
 };
 
 const updateNote = note => async dispatch => {
