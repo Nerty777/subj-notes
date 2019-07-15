@@ -1,0 +1,62 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  max-width: 480px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 16px;
+  margin: 0 auto;
+  background-color: #f4f9f9;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+.mainTitle {
+  text-align: center;
+}
+
+.title {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #EDEDED;
+  font-size: 16px;
+}
+
+.text {
+  resize: none;
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #EDEDED;
+  font-size: 16px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 5px 40px;
+  margin: 0 auto;
+}
