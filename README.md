@@ -1,6 +1,6 @@
 
 ## Develop an application to manage notes(CRUD API with 30% failure rate). Note has a title and content.<br>
-### Deploy on https://nerty777.github.io/subj-notes/<br>
+### Deploy on https://ivankozhyn.github.io/subj-notes/<br>
 
 ##### Requirements:<br>
 1. User can have a possibility to:<br>
