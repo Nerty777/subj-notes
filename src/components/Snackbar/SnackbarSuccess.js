@@ -70,7 +70,4 @@ const mapDispatchToProps = {
   handleClick: snackbarActions.openSnackbarSuccess,
 };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(SnackbarSuccess);
+export default connect(mapStateToProps, mapDispatchToProps)(SnackbarSuccess);

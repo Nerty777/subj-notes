@@ -36,7 +36,4 @@ const mapDispatchToProps = {
   openModal: modalNoteActions.openModal,
 };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(NoteListContainer);
+export default connect(mapStateToProps, mapDispatchToProps)(NoteListContainer);

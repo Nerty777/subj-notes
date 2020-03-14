@@ -117,7 +117,4 @@ const mapDispatchToProps = {
   updateNote: notesOperations.updateNote,
 };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(UpdateNoteModal);
+export default connect(mapStateToProps, mapDispatchToProps)(UpdateNoteModal);
