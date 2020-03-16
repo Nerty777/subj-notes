@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Axios from 'axios';
 
-import NoteList from './NoteList';
-import { notesSelectors, notesOperations } from '../../redux/Notes';
-import { modalNoteActions } from '../../redux/ModalNote';
+import NoteList from './noteList';
+import { notesSelectors, notesOperations } from '../../redux/notes';
+import { modalNoteActions } from '../../redux/modalNote';
 
 let source;
 

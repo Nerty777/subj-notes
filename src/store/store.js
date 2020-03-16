@@ -2,9 +2,9 @@ import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
 
-import notesReducer from '../redux/Notes/notesReducer';
-import modalReducer from '../redux/ModalNote/modalNoteReducer';
-import snackbarReducer from '../redux/Snackbar/snackbarReducer';
+import notesReducer from '../redux/notes/notesReducer';
+import modalReducer from '../redux/modalNote/modalNoteReducer';
+import snackbarReducer from '../redux/snackbar/snackbarReducer';
 
 const rootReducer = combineReducers({
   modal: modalReducer,

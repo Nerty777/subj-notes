@@ -1,11 +1,11 @@
 import React from 'react';
 
-import NoteEditor from '../NoteEditor';
-import NoteList from '../NoteList';
-import UpdateNoteModal from '../UpdateNoteModal/UpdateNoteModal';
-import SnackbarError from '../Snackbar/SnackbarError';
-import SnackbarSuccess from '../Snackbar/SnackbarSuccess';
-import Loading from '../Loading/Loading';
+import NoteEditor from '../noteEditor';
+import NoteList from '../noteList';
+import UpdateNoteModal from '../updateNoteModal/updateNoteModal';
+import SnackbarError from '../snackbar/snackbarError';
+import SnackbarSuccess from '../snackbar/snackbarSuccess';
+import Loading from '../loading/loading';
 
 function App() {
   return (

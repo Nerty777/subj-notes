@@ -1,7 +1,7 @@
 import axios from 'axios';
 import * as API from '../../services/api';
 import actions from './notesActions';
-import { snackbarActions } from '../Snackbar';
+import { snackbarActions } from '../snackbar';
 
 const fetchNotes = () => async dispatch => {
   dispatch(actions.fetchRequest());

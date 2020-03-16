@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Axios from 'axios';
 
-import NoteEditor from './NoteEditor';
+import NoteEditor from './noteEditor';
 
-import { notesOperations } from '../../redux/Notes';
+import { notesOperations } from '../../redux/notes';
 
 const INITIAL_STATE = {
   title: '',

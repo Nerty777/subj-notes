@@ -1,1 +1,1 @@
-export { default } from './NoteListContainer';
+export { default } from './noteListContainer';

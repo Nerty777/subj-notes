@@ -1,10 +1,10 @@
 import React, { Component, createRef } from 'react';
 import { connect } from 'react-redux';
 
-import { modalNoteActions, modalNoteSelectors } from '../../redux/ModalNote';
-import { notesOperations } from '../../redux/Notes';
+import { modalNoteActions, modalNoteSelectors } from '../../redux/modalNote';
+import { notesOperations } from '../../redux/notes';
 
-import s from './UpdateNoteModal.module.css';
+import s from './updateNoteModal.module.css';
 
 const INITIAL_STATE = {
   id: null,
