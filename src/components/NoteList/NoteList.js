@@ -1,6 +1,5 @@
 import React from 'react';
-
-import s from './noteList.module.css';
+import s from './NoteList.module.css';
 
 const NoteList = ({ notes = [], deleteNote, openModal, source }) => (
   <div className={s.container}>

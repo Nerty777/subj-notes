@@ -5,8 +5,8 @@ import Snackbar from '@material-ui/core/Snackbar';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 
-import { notesSelectors } from '../../redux/notes';
-import { snackbarActions, snackbarSelectors } from '../../redux/snackbar';
+import { notesSelectors } from '../../redux/Notes';
+import { snackbarActions, snackbarSelectors } from '../../redux/Snackbar';
 
 const SnackbarError = ({ snackbarMessage, handleClose, isOpenSnackbar }) => {
   return (

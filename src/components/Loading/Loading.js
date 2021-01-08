@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import { notesSelectors } from '../../redux/notes';
+import { notesSelectors } from '../../redux/Notes';
 
 const Loading = ({ isLoading }) => (
   <>

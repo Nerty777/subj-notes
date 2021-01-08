@@ -1,6 +1,5 @@
 import React from 'react';
-
-import s from './noteEditor.module.css';
+import s from './NoteEditor.module.css';
 
 const NoteEditor = ({ title, content, handleChange, handleSubmit }) => {
   return (

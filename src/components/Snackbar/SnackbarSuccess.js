@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 
-import { snackbarActions, snackbarSelectors } from '../../redux/snackbar';
+import { snackbarActions, snackbarSelectors } from '../../redux/Snackbar';
 
 const cancellation = (source, handleClose) => {
   source.cancel('Operation canceled by the user.');
